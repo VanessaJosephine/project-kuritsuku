@@ -31,7 +31,7 @@
 <!-- About Us start -->
   <div class="aboutus">
       <div><h2>Our Values and Mission</h2><br>
-      Learn more about how Kuritsuku changes the skin care industry with our clean, eco-friendly, vegan, and cruelty-free products. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab quam perspiciatis porro amet deserunt eaque, necessitatibus ipsum eius quibusdam alias.</div><br>
+      Learn more about how Kuritsuku changes the skin care industry with our clean, eco-friendly, vegan, and cruelty-free products.</div><br>
       <button class="aboutus_button">
           <router-link to="/About" class="navbar-link">
           About Us</router-link>

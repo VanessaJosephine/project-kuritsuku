@@ -201,7 +201,7 @@ img:hover {
     transform: scale(1.01);
 }
 
-@media (max-width: 1000px){
+@media screen and (max-width: 1000px){
     .container {
         max-width: 500px;
     }
@@ -224,12 +224,20 @@ img:hover {
     }
     .feature_post {
         border-radius: 20px 20px 0 0;
+        padding: 5vh;
     }
     .feature_post2 {
         border-radius: 0 0 20px 20px;
+        padding: 5vh;
     }
     .feature_vid {
         border-radius: 20px 20px 0 0;
+    }
+    hr {
+      width: 150px;
+    }
+    .header{
+      padding: 5vh;
     }
 }
 </style>

@@ -120,7 +120,7 @@ hr {
 .btn3 i {
   cursor: pointer;
   color: red;
-  font-size: 40px;
+  font-size: 30px;
   padding: 10px;
   justify-content: center;
   align-items: center;
@@ -137,7 +137,7 @@ hr {
 .btn2 i {
   cursor: pointer;
   color: lightgreen;
-  font-size: 40px;
+  font-size: 30px;
   padding: 10px;
   justify-content: center;
   align-items: center;
@@ -195,5 +195,21 @@ hr {
   background: white;
   border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+@media screen and (max-width: 525px) {
+  .wrapper-in {
+    grid-template-columns: 1fr;
+  }
+  .btn3 {
+    border-radius: 0 0 20px 20px;
+    padding-bottom: 10px;
+  }
+  .content {
+    margin-left: 0;
+  }
+  select {
+    width: 130px;
+  }
 }
 </style>
