@@ -268,7 +268,7 @@ hr {
 .btn3 i {
   cursor: pointer;
   color: red;
-  font-size: 40px;
+  font-size: 30px;
   padding: 10px;
   justify-content: center;
   align-items: center;
@@ -285,7 +285,7 @@ hr {
 .btn2 i {
   cursor: pointer;
   color: lightgreen;
-  font-size: 40px;
+  font-size: 30px;
   padding: 10px;
   justify-content: center;
   align-items: center;
@@ -308,7 +308,8 @@ hr {
 
 .content {
   background: #F4F1EC;
-  padding: 30px;
+  margin-left: 10px;
+  padding: 20px;
   display: grid;
 }
 

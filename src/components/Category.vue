@@ -219,7 +219,7 @@ export default {
 
 .category_box {
     width: auto;
-    height: 70vh;
+    height: 80vh;
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
