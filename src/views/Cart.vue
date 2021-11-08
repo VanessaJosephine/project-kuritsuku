@@ -411,4 +411,20 @@ select:focus {
   transition: 0.5s;
   transform: scale(1.01);
 }
+
+@media screen and (max-width: 525px) {
+  .wrapper-in {
+    grid-template-columns: 1fr;
+  }
+  .btn3 {
+    border-radius: 0 0 20px 20px;
+    padding-bottom: 10px;
+  }
+  .content {
+    margin-left: 0;
+  }
+  select {
+    width: 130px;
+  }
+}
 </style>
