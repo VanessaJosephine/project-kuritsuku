@@ -176,7 +176,9 @@ i:hover {
 
 .category_box {
     width: auto;
-    height: 70vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
